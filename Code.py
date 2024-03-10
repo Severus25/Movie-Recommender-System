@@ -1,4 +1,4 @@
-// Made By Abhijai Rajawat using Machine Learning in Python
+# Made By Abhijai Rajawat using Machine Learning in Python
 import pickle
 import streamlit as st
 import requests
