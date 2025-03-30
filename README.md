@@ -1,7 +1,42 @@
-# Movie-Recommender-System
-A content based movie recommender system
-Final view of the system is ->
-![image](https://github.com/Severus25/Movie-Recommender-System/assets/77570887/4943a0ac-8793-4151-83db-1c6866416534)
-![image](https://github.com/Severus25/Movie-Recommender-System/assets/77570887/b8d4fe48-08db-4f93-90b2-5a91e5720f50)
-![image](https://github.com/Severus25/Movie-Recommender-System/assets/77570887/f311e1df-be1d-46f1-9d9c-38ac9e47d0c9)
-![image](https://github.com/Severus25/Movie-Recommender-System/assets/77570887/90364c2a-0de0-4866-8685-c03b12316bfd)
+# Movie Recommender System
+
+This repository provides an implementation of a movie recommendation system using machine learning techniques to suggest movies based on user preferences.
+
+## 🌟 Features
+- **Collaborative Filtering**: Suggests movies based on user and item interactions.
+- **Content-Based Filtering**: Recommends movies based on genres, actors, etc.
+- **Scalable**: Capable of handling large datasets.
+- **Interactive Output**: Displays personalized recommendations.
+
+## 🔧 Technology Stack
+- **Programming Language**: Python
+- **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- **Algorithms**: KNN, Matrix Factorization, TF-IDF
+
+## 🚀 Installation & Setup
+### Prerequisites
+- Python (>= 3.6)
+- Required libraries:
+    ```bash
+    pip install pandas numpy scikit-learn matplotlib seaborn
+    ```
+
+### Steps
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Severus25/Movie-Recommender-System.git
+    cd Movie-Recommender-System
+    ```
+2. Run the script:
+    ```bash
+    python recommender.py
+    ```
+
+## 📂 Project Structure
+Movie-Recommender-System/ ├── data/ # Movie dataset files ├── models/ # Model files ├── recommender.py # Main script └── README.md # Documentation
+
+## 🤝 Contributing
+Contributions are welcome. Fork the repository and submit pull requests.
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
